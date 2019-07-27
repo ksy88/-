@@ -1,0 +1,111 @@
+
+
+
+#grid{
+  display:grid;
+  grid-template-columns:1fr 4fr
+}
+#title {
+  color: darkblue;
+  text-align: center;
+  font-family: serif;
+
+  border-bottom: 3px solid black;
+  margin: 20px;
+  padding: 20px;
+
+}
+
+#menu ol{
+  font-family:fantasy;
+  font-size: 15;
+  line-height:40px;
+
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+}
+
+#sectitle{
+  font-family:fantasy;
+  text-align: center;
+}
+
+#maintext{
+  text-indent: 25px;
+  font-family:Arial;
+  font-size: 13
+  margin:20px;
+  padding:20px;
+}
+
+.vowels{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  width:80;
+  height:100;
+}
+
+.consonants{
+  font-size:400%;
+  font-family:fantasy;
+  text-align:center;
+}
+
+div {
+  font-family:serif;
+  font-size:13;
+}
+
+img{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+iframe{
+  display:block;
+  margin-right:auto;
+  margin-left: auto;
+}
+table, th, td{
+  font-family: 'Lateef', cursive;
+  border: 2px solid black;
+  text-align:center;
+  vertical-align:middle;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: auto;
+  border-collapse:collapse;
+
+}
+th{
+
+  background-color:lightblue;
+  font: 30px darkblue;
+  width:auto;
+  padding: 10px
+}
+td{
+
+  background-color:white;
+  font: 60px black;
+  width:auto;
+  padding: 10px
+
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  #menu ol{
+    border-right: none;
+    text-align:center;
+  }
+  #title {
+    border-bottom:none;
+  }
+}
